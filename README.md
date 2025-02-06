@@ -4,7 +4,7 @@ Tue file `particle_in_mag` contains the source code to reproduce the siumulation
 
 ## Geant4 simulations
 
-`geant4.py` contains the core simulation code for modeling particle interactions within magnetic fields in air using the Geant4 toolkit. The Geant4 implementation is presented in `muons_and_matter_cpp`, based on the library MuonsAndMatter for simulating muons travelling through space using Geant4.
+`geant4.py` contains the core simulation code for modeling particle interactions within magnetic fields in air using the Geant4 toolkit. The Geant4 implementation is presented in `muons_and_matter_cpp`, based on the library MuonsAndMatter for simulating muons travelling through space using Geant4. The space and magnetic fields are defined in `ToyDetectorConstruction.cc`
 
 ## Trajectories comparison
 

@@ -224,14 +224,8 @@ std::string initialize( int rseed_0,
         if (type==3) {
             detector = new DetectorConstruction(detectorData);
         }
-        else if (type == 0)
-            detector = new BoxyDetectorConstruction(detectorData);
         else if (type == 4)
             detector = new ToyDetectorConstruction(detectorData, B_map);
-        else if (type == 1)
-            detector = new GDetectorConstruction(detectorData, B_map);
-        else if (type == 2) {
-            detector = new SlimFilm(detectorData);
         } else
             throw std::runtime_error("Invalid detector type specified.");
 
