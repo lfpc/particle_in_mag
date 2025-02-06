@@ -74,7 +74,7 @@ if __name__ == '__main__':
     ax.view_init(elev=60, azim=110)
 
     ax.legend(loc='upper left', bbox_to_anchor=(-0.3, 1))
-    plt.savefig('trajectory_geant.png')
+    plt.savefig('trajectories.png')
     plt.show()
     
     

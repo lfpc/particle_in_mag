@@ -9,3 +9,5 @@ Tue file `particle_in_mag` contains the source code to reproduce the siumulation
 ## Trajectories comparison
 
 `comparte_trajectories.py` contains a script for running both simulations and comparing the trajectories. 3 different magnetic fields are presented, Toy magnetic field (arbitrary implementation for testing), Uniform, where a fixed B is set for the entire space and Map, where the magnetic field is taken from some pickle file.
+
+![Trajectories](trajectories.png)
